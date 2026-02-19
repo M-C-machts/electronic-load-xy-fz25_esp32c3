@@ -1,0 +1,41 @@
+# ── PlatformIO ──────────────────────────────────────────────────────────────
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# ── KiCad ───────────────────────────────────────────────────────────────────
+# Auto-generated cache — not worth tracking
+hardware/fp-info-cache
+hardware/**/*-backups/
+
+# KiCad lock files
+*.lck
+
+# Gerber / fabrication outputs (add a separate /fab branch or release asset)
+hardware/gerbers/
+hardware/fab/
+
+# ── VS Code ─────────────────────────────────────────────────────────────────
+.vscode/
+# Uncomment if you DO want to share recommended extensions / settings:
+# !.vscode/extensions.json
+# !.vscode/settings.json
+
+# ── macOS ────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── Windows ──────────────────────────────────────────────────────────────────
+Thumbs.db
+desktop.ini
+
+# ── Python (e.g. KiCad scripting, PlatformIO scripts) ───────────────────────
+__pycache__/
+*.pyc
+*.pyo
+
+# ── Miscellaneous ────────────────────────────────────────────────────────────
+*.log
+*.bak
+*.orig
