@@ -1929,364 +1929,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Marcus-PCB-Library:SEEEDUINO-XIAO-ESP32C3"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 13.335 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "SEEEDUINO-XIAO-ESP32C3"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Marcus-PCB-Library:MOUDLE14P-SMD-2.54-21X17.8MM"
-				(at 19.685 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 21.59 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 21.59 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SEEEDUINO-XIAO-ESP32C3_1_0"
-				(rectangle
-					(start 0 0.635)
-					(end 30.48 -24.765)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 -1.905 0)
-					(length 2.54)
-					(name "PA02_A0_D0"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 -4.445 0)
-					(length 2.54)
-					(name "PA4_A1_D1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 -6.985 0)
-					(length 2.54)
-					(name "PA10_A2_D2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 -9.525 0)
-					(length 2.54)
-					(name "PA11_A3_D3"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 -12.065 0)
-					(length 2.54)
-					(name "PA8_A4_D4_SDA"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 -14.605 0)
-					(length 2.54)
-					(name "PA9_A5_D5_SCL"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 -17.145 0)
-					(length 2.54)
-					(name "PB08_A6_D6_TX"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 33.02 -1.905 180)
-					(length 2.54)
-					(name "5V"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 33.02 -4.445 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 33.02 -6.985 180)
-					(length 2.54)
-					(name "3V3"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 33.02 -9.525 180)
-					(length 2.54)
-					(name "PA6_A10_D10_MOSI"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 33.02 -12.065 180)
-					(length 2.54)
-					(name "PA5_A9_D9_MISO"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 33.02 -14.605 180)
-					(length 2.54)
-					(name "PA7_A8_D8_SCK"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 33.02 -17.145 180)
-					(length 2.54)
-					(name "PB09_A7_D7_RX"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SEEEDUINO-XIAO-ESP32C3_1_1"
-				(pin input line
-					(at 13.97 -27.305 90)
-					(length 2.54)
-					(name "BAT+"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 16.51 -27.305 90)
-					(length 2.54)
-					(name "BAT-"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Marcus-PCB-Library:TP5000-LiFePO4-Charger"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2791,6 +2433,364 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Marcus_Modules:SEEEDUINO-XIAO-ESP32C3"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 13.335 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SEEEDUINO-XIAO-ESP32C3"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Marcus_Modules:SEEEDUINO-XIAO-ESP32C3"
+				(at 19.685 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 21.59 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 21.59 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SEEEDUINO-XIAO-ESP32C3_1_0"
+				(rectangle
+					(start 0 0.635)
+					(end 30.48 -24.765)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -2.54 -1.905 0)
+					(length 2.54)
+					(name "PA02_A0_D0"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -4.445 0)
+					(length 2.54)
+					(name "PA4_A1_D1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -6.985 0)
+					(length 2.54)
+					(name "PA10_A2_D2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -9.525 0)
+					(length 2.54)
+					(name "PA11_A3_D3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -12.065 0)
+					(length 2.54)
+					(name "PA8_A4_D4_SDA"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -14.605 0)
+					(length 2.54)
+					(name "PA9_A5_D5_SCL"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -17.145 0)
+					(length 2.54)
+					(name "PB08_A6_D6_TX"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -1.905 180)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -4.445 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -6.985 180)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -9.525 180)
+					(length 2.54)
+					(name "PA6_A10_D10_MOSI"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -12.065 180)
+					(length 2.54)
+					(name "PA5_A9_D9_MISO"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -14.605 180)
+					(length 2.54)
+					(name "PA7_A8_D8_SCK"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -17.145 180)
+					(length 2.54)
+					(name "PB09_A7_D7_RX"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SEEEDUINO-XIAO-ESP32C3_1_1"
+				(pin passive line
+					(at 13.97 -27.305 90)
+					(length 2.54)
+					(name "BAT+"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 16.51 -27.305 90)
+					(length 2.54)
+					(name "BAT-"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1 1)
 							)
 						)
 					)
@@ -4896,116 +4896,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Marcus-PCB-Library:SEEEDUINO-XIAO-ESP32C3")
-		(at 186.69 51.435 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7cecdf35-e89d-4238-aeac-0bc33dfa0107")
-		(property "Reference" "U3"
-			(at 187.96 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XIAO-ESP32C3"
-			(at 204.47 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Marcus-PCB-Library:MOUDLE14P-SMD-2.54-21X17.8MM"
-			(at 184.785 36.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 51.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 186.69 51.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "14"
-			(uuid "7d554b1e-e93b-4186-9d10-b583800efc6e")
-		)
-		(pin "6"
-			(uuid "c48efb37-1489-4f64-aa08-05020b057731")
-		)
-		(pin "2"
-			(uuid "d6024774-6272-47ea-b656-6d0e98ee7d60")
-		)
-		(pin "3"
-			(uuid "dd2f616a-bdae-4f52-9210-271c63a8f8bb")
-		)
-		(pin "4"
-			(uuid "59e62ad4-466e-4d61-b1c4-5a7b65a90bd0")
-		)
-		(pin "5"
-			(uuid "d6d6a2e5-3318-4c2e-867e-2c745a5fcb05")
-		)
-		(pin "7"
-			(uuid "423cdf45-b2e8-4f6d-80ab-02fc5efb1ee8")
-		)
-		(pin "13"
-			(uuid "98c19ed7-4079-4b88-a9fb-da8a8ca21e67")
-		)
-		(pin "12"
-			(uuid "399ee309-4bad-4a5d-b9ac-a3289418895d")
-		)
-		(pin "11"
-			(uuid "5fed7442-fd7e-42eb-bb57-a0070e5b8659")
-		)
-		(pin "10"
-			(uuid "40068203-8b34-47f7-8ebf-380d3f02919b")
-		)
-		(pin "1"
-			(uuid "b755e0fe-2f4e-45a6-8332-a455b855a93a")
-		)
-		(pin "9"
-			(uuid "5fb48432-75fc-4b3c-9b5e-0bb5e585adbe")
-		)
-		(pin "17"
-			(uuid "c44b0924-4ab7-490a-8a2b-55b2f4a2869f")
-		)
-		(pin "8"
-			(uuid "b6e5f735-0a79-4fe6-b280-0c1625882c0e")
-		)
-		(pin "16"
-			(uuid "59e265a8-f60f-478d-b678-b27a7ad4f97a")
-		)
-		(instances
-			(project ""
-				(path "/1594c9f4-f332-422d-b1bc-54e0c3ce6e4d"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 168.91 46.99 0)
 		(unit 1)
@@ -6227,6 +6117,117 @@
 			(project "Electronic-Load-XY-FZ25_ESP32C3-Circuit"
 				(path "/1594c9f4-f332-422d-b1bc-54e0c3ce6e4d"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Marcus_Modules:SEEEDUINO-XIAO-ESP32C3")
+		(at 186.69 51.435 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d83ee879-a56f-4885-9cb2-b047d6ead3a9")
+		(property "Reference" "U3"
+			(at 201.93 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SEEEDUINO-XIAO-ESP32C3"
+			(at 201.93 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Marcus_Modules:SEEEDUINO-XIAO-ESP32C3"
+			(at 206.375 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "255398b6-1926-409f-9d30-85782d8b247d")
+		)
+		(pin "4"
+			(uuid "52b802e3-f372-4cb7-aa36-0f0c229d54c3")
+		)
+		(pin "2"
+			(uuid "d49e9b30-2ecd-4b3e-9d75-2c48740add1b")
+		)
+		(pin "3"
+			(uuid "9aa3f168-293e-43df-9d22-cdb4f6755147")
+		)
+		(pin "7"
+			(uuid "418dae47-6c49-4c6e-980f-41d2b3b45438")
+		)
+		(pin "11"
+			(uuid "4f4571f4-5146-4a8d-918c-f5430cac50f7")
+		)
+		(pin "14"
+			(uuid "859ee230-fb50-4f66-bf05-054e59021dc1")
+		)
+		(pin "9"
+			(uuid "67c570fa-5a15-4a0f-b2d4-31bd6d3266b5")
+		)
+		(pin "8"
+			(uuid "93dbd5b1-d159-409a-b963-49498844ba58")
+		)
+		(pin "16"
+			(uuid "78beed9f-412b-42fe-8a67-f2434f7a883c")
+		)
+		(pin "17"
+			(uuid "a147f017-46b3-44fe-a2ef-1716e55d143f")
+		)
+		(pin "5"
+			(uuid "ad427348-3c65-470b-8335-097d66509318")
+		)
+		(pin "6"
+			(uuid "c847e46d-5b19-4c26-982b-cd2e8a5253f7")
+		)
+		(pin "13"
+			(uuid "78ab7a5f-1f65-4745-8294-1cf0468e0255")
+		)
+		(pin "12"
+			(uuid "4d659a3e-0bcb-432b-8a1d-3da53b264ad9")
+		)
+		(pin "10"
+			(uuid "c84ae6ee-faba-494b-a8b8-acf1c736655c")
+		)
+		(instances
+			(project ""
+				(path "/1594c9f4-f332-422d-b1bc-54e0c3ce6e4d"
+					(reference "U3")
 					(unit 1)
 				)
 			)

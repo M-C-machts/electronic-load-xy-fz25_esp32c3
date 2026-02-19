@@ -25,7 +25,7 @@ static bool oled_begin_try(uint8_t addr) {
 
 void setup() {
     Serial.begin(115200);
-    delay(100);
+    delay(1000);
 
     Wire.begin();
     // Optional: faster I2C transfers (doesn't change measurement accuracy)
